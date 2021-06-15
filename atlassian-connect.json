@@ -6,10 +6,27 @@
   "authentication": {
     "type": "none"
   },
-  "routeOverride": true,
-  "routes": {
-    "spaceview": {
-      "url": "/randing89/confluence-theme-test/master/hello.html?key={space.key}"
+  "confluenceThemes": [
+    {
+      "key": "my-first-theme",
+      "routeOverride": true,
+      "availableGlobally": true,
+      "icon": {
+        "width": 110,
+        "height": 70,
+        "url": "/icon.png"
+      },
+      "name": {
+        "value": "Hello World Theme"
+      },
+      "description": {
+        "value": "My first Connect theme."
+      },
+      "routes": {
+        "spaceview": {
+          "url": "/randing89/confluence-theme-test/master/hello.html?key={space.key}"
+        }
+      }
     }
-  }
+  ]
 }
