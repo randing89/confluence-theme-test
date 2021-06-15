@@ -11,17 +11,8 @@
       {
         "key": "my-first-theme",
         "routeOverride": true,
-        "availableGlobally": true,
-        "icon": {
-          "width": 110,
-          "height": 70,
-          "url": "/icon.png"
-        },
         "name": {
-          "value": "Hello World Theme"
-        },
-        "description": {
-          "value": "My first Connect theme."
+          "value": "Theme with space override"
         },
         "routes": {
           "spaceview": {
