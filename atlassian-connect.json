@@ -7,11 +7,9 @@
     "type": "none"
   },
   "routeOverride": true,
-  "modules": {
-    "routes": {
-      "spaceview": {
-        "url": "/randing89/confluence-theme-test/master/hello.html?key={space.key}"
-      }
+  "routes": {
+    "spaceview": {
+      "url": "/randing89/confluence-theme-test/master/hello.html?key={space.key}"
     }
   }
 }
