@@ -2,7 +2,7 @@
   "key": "confluence-theme-test",
   "name": "A test add-on for theme",
   "description": "My very first app",
-  "baseUrl": "https://raw.githubusercontent.com",
+  "baseUrl": "https://randing89.github.io",
   "authentication": {
     "type": "none"
   },
@@ -25,7 +25,7 @@
         },
         "routes": {
           "spaceview": {
-            "url": "/randing89/confluence-theme-test/master/hello.html?key={space.key}"
+            "url": "/confluence-theme-test/hello.html?key={space.key}"
           }
         }
       }
