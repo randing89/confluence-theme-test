@@ -27,6 +27,11 @@
         "name": {
           "value": "Theme with custom look and feel"
         },
+        "routes": {
+          "spaceview": {
+            "url": "/space/{space.key}"
+          }
+        },
         "lookAndFeel": {
           "headings": {
             "color": "#333333"
@@ -73,7 +78,7 @@
               "layer": {
                 "height": "250px",
                 "width": "100%",
-                "backgroundImage": "url('//img/skyline_pink.jpg')",
+                "backgroundImage": "url('https://upload.wikimedia.org/wikipedia/commons/f/f0/Mops_oct09_cropped2.jpg')",
                 "backgroundSize": "cover",
                 "backgroundRepeat": "no-repeat"
               },
