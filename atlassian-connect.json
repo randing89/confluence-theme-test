@@ -19,6 +19,87 @@
             "url": "/confluence-theme-test/hello.html?key={space.key}"
           }
         }
+      },
+      {
+        "key": "my-second-theme",
+        "routeOverride": false,
+        "availableGlobally": true,
+        "name": {
+          "value": "Theme with custom look and feel"
+        },
+        "lookAndFeel": {
+          "headings": {
+            "color": "#333333"
+          },
+          "links": {
+            "color": "#732D3E"
+          },
+          "menus": {
+            "hoverOrFocus": {
+              "backgroundColor": "#3873AE"
+            },
+            "color": "#732D3E"
+          },
+          "bordersAndDividers": {
+            "color": "#0D0E0E"
+          },
+          "header": {
+            "backgroundColor": "#661F2D",
+            "button": {
+              "backgroundColor": "#894E59",
+              "color": "#FFFFFF"
+            },
+            "primaryNavigation": {
+              "hoverOrFocus": {
+                "backgroundColor": "#863647",
+                "color": "#FFFFFF"
+              },
+              "color": "#FFFFFF"
+            },
+            "secondaryNavigation": {
+              "hoverOrFocus": {
+                "backgroundColor": "#863647",
+                "color": "#FFFFFF"
+              },
+              "color": "#000000"
+            },
+            "search": {
+              "backgroundColor": "#9A636B",
+              "color": "#FFFFFF"
+            }
+          },
+          "content": {
+            "screen": {
+              "layer": {
+                "height": "250px",
+                "width": "100%",
+                "backgroundImage": "url('//img/skyline_pink.jpg')",
+                "backgroundSize": "cover",
+                "backgroundRepeat": "no-repeat"
+              },
+              "background": "linear-gradient(45deg, rgba(176,104,112,1) 0%, rgba(244,212,216,1) 100%)",
+              "gutterTop": "20px",
+              "gutterRight": "small",
+              "gutterBottom": "none",
+              "gutterLeft": "small"
+            },
+            "container": {
+              "background": "#F4D4D8",
+              "padding": "0 20px",
+              "borderRadius": "10px"
+            },
+            "header": {
+              "background": "rgba(0, 0, 0, 0.2)",
+              "padding": "20px 0  90px 20px",
+              "borderRadius": "5px 5px 0 0"
+            },
+            "body": {
+              "background": "#FFFFFF",
+              "padding": "10px",
+              "borderRadius": "0 0 5px 5px"
+            }
+          }
+        }
       }
     ]
   }
